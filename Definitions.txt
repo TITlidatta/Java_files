@@ -51,7 +51,34 @@ new = it is a keyword used to create any object.
 
 13. Clone: Method in Java used to create a copy of an object. Objects must implement Cloneable interface and override
                clone() method to support cloning.
+//inner class
+//length
+//
+//String x = "Suvadip"  x.length()
+// x ={1,2,3,4}     x.length 
 
+/* for(i=0;i<=x,length();i++)
+{
+     if(x[i]=='e')
+     {
+        print ok;
+     }
+}*/
+/*
+ * class CarMaking
+ * {
+ * 
+ *    class Tyre
+ *    {
+ * 
+ * 
+ *    }
+ * 
+ * 
+ * }
+ * 
+ * 
+ */
 14. Array: Data structure in Java that stores a fixed-size collection of elements of the same type. Provides indexed access to
                elements and facilitates manipulation of data.
 
