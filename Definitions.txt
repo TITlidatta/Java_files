@@ -1,0 +1,59 @@
+
+class= class is a userdefined data structure(rule book) with member variables(features) and member methods(functions).
+objects= objects are memory block reference of any class type having instance variables(mane feature gulor particular values)
+
+constructor = a special type of method/function used to instantiate( I mean create) any object . It can be used in overloaded form 
+             to set instance variables.Constructors have same name as class name
+
+method overloading = This is a concept which says any function can have different description for different parameter list types.
+                     During Runtime the specific method is called by jvm for any object matching the stated parameter list.
+
+this = it is a keyword use to specify the particular object(I mean memory block) for which any instance variable(I mean feature) is declared or any 
+       function is called.
+
+new = it is a keyword used to create any object.
+
+1. Modularity: Organizing code into smaller, self-contained units (modules) for easier development, testing, and maintenance.
+                   In Java, achieved through packages and modules (Java 9 onwards).
+
+2. Encapsulation: Bundling data (variables) and methods (functions) into a single unit (class) and controlling access to it. 
+                      In Java, accomplished by declaring variables as private and providing public methods (getters and setters).
+
+3. Polymorphism: The ability for a single method or piece of code to operate on different types of objects. In Java, realized 
+                    through method overloading and method overriding.
+
+4. Abstraction: Hiding complex implementation details and showing only essential features. In Java, achieved through abstract 
+                    classes and interfaces.
+
+5. Inheritance: Mechanism by which a class (subclass) inherits properties and behaviors from another class (superclass). 
+                    In Java, promotes code reusability and "is-a" relationship.
+
+6. Method Overriding: Providing a specific implementation of a method that is already defined in the superclass. In Java, 
+                          allows subclass to customize behavior of inherited methods.
+
+7. Abstract Class: A class that cannot be instantiated and may contain abstract methods. In Java, used to define a blueprint 
+                      for other classes and enforce rules.
+
+8. Interface: A reference type in Java that contains only abstract methods and constants. Used to achieve abstraction and 
+                  provide a contract for implementing classes.
+
+9. Wrapper Class: A class in Java that wraps primitive data types into objects. Provides utility methods for converting 
+                    between primitive data types and objects.
+
+10. Access Modifiers and Final: Keywords in Java used to control access and make elements immutable. Access modifiers 
+                                  include public, private, protected, and default. Final keyword makes elements unchangeable.
+
+11. Packages: Mechanism in Java for organizing classes and interfaces into namespaces. Helps manage complexity, avoid 
+                  naming conflicts, and facilitate modular development.
+
+12. Exception Handling: Mechanism in Java for dealing with runtime errors and exceptional situations. Includes keywords try,
+                            catch, finally, and throws.
+
+13. Clone: Method in Java used to create a copy of an object. Objects must implement Cloneable interface and override
+               clone() method to support cloning.
+
+14. Array: Data structure in Java that stores a fixed-size collection of elements of the same type. Provides indexed access to
+               elements and facilitates manipulation of data.
+
+15. Static: Keyword in Java used to declare members (variables and methods) that belong to the class itself, rather than 
+                instances of the class. Shared among all instances of the class.
